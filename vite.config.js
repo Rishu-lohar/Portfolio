@@ -7,8 +7,5 @@ export default defineConfig({
     host: true,
     allowedHosts: true,
     port: 5000,
-    proxy: {
-      '/contact': 'http://localhost:3001'
-    }
   }
 })

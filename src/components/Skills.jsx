@@ -2,6 +2,7 @@ const skills = [
   { category: "Frontend", items: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"] },
   { category: "Backend", items: ["Node.js", "Express.js", "REST APIs"] },
   { category: "Database", items: ["MongoDB", "MySQL"] },
+  { category: "Cloud — AWS", items: ["EC2", "S3", "IAM", "Lambda", "CloudWatch", "VPC"] },
   { category: "Programming", items: ["Python", "C"] },
   { category: "Tools & DevOps", items: ["Git", "GitHub", "VS Code", "Postman"] }
 ];

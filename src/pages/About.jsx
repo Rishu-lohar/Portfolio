@@ -1,7 +1,7 @@
 const highlights = [
   "MCA Student — PES University",
   "MERN Stack Developer",
-  "Backend & API Learning",
+  "AWS Cloud (EC2, S3, IAM, Lambda)",
   "Open to Internships"
 ];
 
@@ -28,7 +28,7 @@ function About() {
             <p>
               I&apos;m currently pursuing my MCA at PES University and building a strong
               foundation in modern web technologies. My focus is on the MERN stack, RESTful APIs,
-              and creating polished web experiences that feel as good as they look.
+              cloud services (AWS), and creating polished web experiences.
             </p>
             <p style={{ marginTop: "0.8rem" }}>
               I&apos;m actively looking for internship opportunities where I can contribute,

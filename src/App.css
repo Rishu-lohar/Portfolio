@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  background: #111111;
+  background: #0d0d0d;
   color: #f0f0f0;
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -27,9 +27,9 @@ button, input, textarea, select { font: inherit; }
   justify-content: space-between;
   align-items: center;
   padding: 1.1rem 2rem;
-  background: rgba(17, 17, 17, 0.92);
+  background: rgba(13, 13, 13, 0.95);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 .brand { color: #7CFC00; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .nav-links { display: flex; gap: 2rem; align-items: center; list-style: none; }
@@ -100,9 +100,9 @@ button, input, textarea, select { font: inherit; }
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.2rem;
-  color: #ffffff;
+  color: #ffffff !important;
 }
-.hero-copy h1 span { color: #7CFC00; }
+.hero-copy h1 .name { color: #7CFC00 !important; }
 .hero-copy .hero-desc {
   color: #b0b0b0;
   font-size: 1rem;
@@ -157,7 +157,7 @@ button, input, textarea, select { font: inherit; }
 .social-links a:hover { border-color: #7CFC00; color: #7CFC00; }
 
 /* ─── Worked With / Tech Band ─── */
-.worked-with-section { padding: 2.5rem 0 4rem; border-top: 1px solid #1e1e1e; }
+.worked-with-section { padding: 2.5rem 0 4rem; border-top: 1px solid #1a1a1a; }
 .worked-with-label {
   font-size: 0.82rem;
   color: #888;
@@ -171,8 +171,8 @@ button, input, textarea, select { font: inherit; }
   align-items: center;
   gap: 0.5rem;
   padding: 0.65rem 1.2rem;
-  border: 1px solid #2a2a2a;
-  background: #171717;
+  border: 1px solid #272727;
+  background: #131313;
   border-radius: 8px;
   font-size: 0.88rem;
   color: #c8c8c8;
@@ -207,13 +207,13 @@ button, input, textarea, select { font: inherit; }
 
 /* ─── Cards ─── */
 .card-surface {
-  background: #181818;
-  border: 1px solid #252525;
+  background: #141414;
+  border: 1px solid #232323;
   border-radius: 14px;
   padding: 1.5rem;
   transition: border-color 0.2s;
 }
-.card-surface:hover { border-color: #3a3a3a; }
+.card-surface:hover { border-color: #383838; }
 
 /* ─── About ─── */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
@@ -232,7 +232,7 @@ button, input, textarea, select { font: inherit; }
 
 /* ─── Skills ─── */
 .skill-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-.skill-category { padding: 1.25rem; background: #181818; border: 1px solid #252525; border-radius: 12px; }
+.skill-category { padding: 1.25rem; background: #141414; border: 1px solid #232323; border-radius: 12px; }
 .skill-category h3 { font-size: 0.88rem; color: #7CFC00; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.8rem; }
 .skill-list { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 
@@ -299,8 +299,8 @@ button, input, textarea, select { font: inherit; }
 /* ─── Footer ─── */
 .footer {
   padding: 1.4rem 0 1.8rem;
-  border-top: 1px solid #1e1e1e;
-  background: #111111;
+  border-top: 1px solid #1a1a1a;
+  background: #0d0d0d;
 }
 .footer-content {
   display: flex;
@@ -326,9 +326,9 @@ button, input, textarea, select { font: inherit; }
 .dashboard-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1.2rem 0 1.5rem; }
 .dashboard-links a {
   padding: 0.5rem 0.9rem;
-  background: #181818;
+  background: #141414;
   color: #c0c0c0;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #252525;
   border-radius: 7px;
   font-size: 0.88rem;
   transition: border-color 0.2s, color 0.2s;

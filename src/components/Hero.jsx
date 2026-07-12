@@ -33,9 +33,9 @@ function Hero() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <span className="hero-eyebrow">MCA Student · PES University</span>
-          <h1>
-            Hi, I&apos;m{" "}
-            <span>Rishu Lohar</span>
+          <h1 style={{ color: "#ffffff" }}>
+            <span style={{ color: "#ffffff" }}>Hi, I&apos;m </span>
+            <span style={{ color: "#7CFC00" }}>Rishu Lohar</span>
           </h1>
           <p className="hero-desc">
             A passionate MERN stack developer building practical web applications.

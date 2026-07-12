@@ -1,14 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import ProjectDetails from "./pages/ProjectDetails";
+import Projects from "./pages/Projects";
 import Dashboard from "./pages/Dashboard";
 import Skills from "./components/Skills";
 import Certificate from "./components/Certificate";
@@ -21,10 +19,8 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/dashboard" element={<Dashboard />}>
             <Route path="skills" element={<Skills />} />
             <Route path="certificate" element={<Certificate />} />

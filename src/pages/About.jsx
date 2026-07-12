@@ -1,33 +1,42 @@
-import { Container, Row, Col } from "react-bootstrap";
-
 const highlights = [
-  "MCA Student",
-  "Passionate MERN Developer",
-  "Learning Backend",
-  "Learning Cloud",
-  "Looking for Internship Opportunities"
+  "MCA Student — PES University",
+  "MERN Stack Developer",
+  "Backend & API Learning",
+  "Open to Internships"
 ];
 
-const skillBadges = ["JavaScript", "React", "Node.js", "Express.js", "MongoDB", "MySQL", "Python", "C", "Git", "GitHub", "VS Code", "Postman"];
+const skillBadges = [
+  "JavaScript", "React", "Node.js", "Express.js",
+  "MongoDB", "MySQL", "Python", "C",
+  "Git", "GitHub", "VS Code", "Postman"
+];
 
 function About() {
   return (
     <section className="section" id="about">
-      <Container>
+      <div className="container">
         <div className="section-heading">
           <span className="eyebrow">About</span>
-          <h2>About Me</h2>
-          <p>I am an MCA student who enjoys building web applications and learning modern development practices.</p>
+          <h2>Who I Am</h2>
+          <p>
+            A developer who believes in learning by building — and building things that matter.
+          </p>
         </div>
 
         <div className="about-grid">
           <div className="about-card card-surface">
             <p>
-              I am currently pursuing my MCA at PES University and developing a strong foundation in modern web technologies. My focus is on the MERN stack, backend systems, and creating portfolios that feel as polished as the products they represent.
+              I&apos;m currently pursuing my MCA at PES University and building a strong
+              foundation in modern web technologies. My focus is on the MERN stack, RESTful APIs,
+              and creating polished web experiences that feel as good as they look.
+            </p>
+            <p style={{ marginTop: "0.8rem" }}>
+              I&apos;m actively looking for internship opportunities where I can contribute,
+              collaborate, and grow alongside experienced engineers.
             </p>
             <div className="badge-list">
               {highlights.map((item) => (
-                <span key={item} className="skill-badge">
+                <span key={item} className="skill-badge" style={{ color: "#7CFC00", borderColor: "rgba(124,252,0,0.2)" }}>
                   {item}
                 </span>
               ))}
@@ -35,17 +44,15 @@ function About() {
           </div>
 
           <div className="about-card card-surface">
-            <h3>Skills Snapshot</h3>
+            <h3>Skills at a Glance</h3>
             <div className="badge-list">
               {skillBadges.map((skill) => (
-                <span key={skill} className="skill-badge">
-                  {skill}
-                </span>
+                <span key={skill} className="skill-badge">{skill}</span>
               ))}
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

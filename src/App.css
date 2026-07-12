@@ -139,8 +139,7 @@ button, input, textarea, select { font: inherit; }
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid rgba(124,252,0,0.4);
-  box-shadow: 0 0 40px rgba(124,252,0,0.12), 0 20px 60px rgba(0,0,0,0.5);
+  border: 3px solid #7CFC00;
 }
 
 /* ─── Social Links (hero) ─── */

@@ -23,7 +23,7 @@ function Hero() {
             <a className="btn btn-outline" href="#projects">
               Recent Work
             </a>
-            <a className="btn btn-outline" href="/Rishu_Lohar_Resume.txt" download>
+            <a className="btn btn-outline" href="/Rishu_Lohar_Resume.pdf" download>
               Download CV
             </a>
           </div>

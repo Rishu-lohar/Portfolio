@@ -1,9 +1,9 @@
 function SocialLinks() {
   const socials = [
-    { label: "GitHub", url: "https://github.com/" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/" },
-    { label: "LeetCode", url: "https://leetcode.com/" },
-    { label: "Instagram", url: "https://www.instagram.com/" }
+    { label: "GitHub", url: "https://github.com/rishu-lohar" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/rishulohar" },
+    { label: "LeetCode", url: "https://leetcode.com/Rishu_Lohar/" },
+    { label: "Instagram", url: "https://www.instagram.com/rishulohar_" }
   ];
 
   return (

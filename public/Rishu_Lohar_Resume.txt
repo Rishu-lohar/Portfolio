@@ -1,0 +1,21 @@
+Rishu Lohar
+MCA Student | MERN Stack Developer | React Developer | Backend Learner
+
+Skills:
+- React
+- Node.js
+- Express.js
+- MongoDB
+- MySQL
+- JavaScript
+- Python
+- C
+- Git/GitHub
+
+Experience:
+- Building modern frontend and full-stack web projects
+- Learning backend architecture, APIs, and deployment basics
+
+Contact:
+- Email: rishulohar@example.com
+- LinkedIn: https://www.linkedin.com/

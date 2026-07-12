@@ -29,7 +29,7 @@ function Contact() {
       toast.success(data || "Message sent! I'll get back to you soon.");
       setForm({ name: "", email: "", message: "" });
     } catch {
-      toast.error("Something went wrong. Please try again or email me directly.");
+      toast.error("Something went wrong. Please try again.");
     } finally {
       setSending(false);
     }
@@ -49,19 +49,23 @@ function Contact() {
 
         <div className="contact-grid">
           {/* Info panel */}
-          <div className="card-surface" style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            <h3 style={{ color: "#f0f0f0", marginBottom: "1rem" }}>Contact Details</h3>
+          <div className="card-surface" style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+            <h3 style={{ color: "#f0f0f0", marginBottom: "0.5rem" }}>Contact Details</h3>
 
             <div className="contact-detail">
               <span>
                 <strong>Email</strong>
-                rishulohar@example.com
+                <a href="mailto:rishulohar266@gmail.com" style={{ color: "#7CFC00" }}>
+                  rishulohar266@gmail.com
+                </a>
               </span>
             </div>
             <div className="contact-detail">
               <span>
                 <strong>Phone</strong>
-                +91 98765 43210
+                <a href="tel:+918905340433" style={{ color: "#c8c8c8" }}>
+                  +91 89053 40433
+                </a>
               </span>
             </div>
             <div className="contact-detail">
@@ -71,10 +75,11 @@ function Contact() {
               </span>
             </div>
 
-            <div className="contact-list">
-              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode</a>
+            <div className="contact-list" style={{ marginTop: "0.8rem" }}>
+              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://github.com/rishulohar" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://www.linkedin.com/in/rishulohar" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://leetcode.com/rishulohar" target="_blank" rel="noreferrer">LeetCode</a>
+              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://www.instagram.com/rishulohar" target="_blank" rel="noreferrer">Instagram</a>
             </div>
           </div>
 
@@ -90,7 +95,7 @@ function Contact() {
                   type="text"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="Rishu Lohar"
+                  placeholder="Your full name"
                   autoComplete="name"
                 />
               </div>

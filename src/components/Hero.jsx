@@ -1,31 +1,4 @@
-/* Profile image is a placeholder until a real photo is uploaded */
-function ProfilePlaceholder() {
-  return (
-    <div
-      style={{
-        width: "min(300px, 70vw)",
-        aspectRatio: "1",
-        borderRadius: "50%",
-        border: "3px solid rgba(124,252,0,0.4)",
-        boxShadow: "0 0 40px rgba(124,252,0,0.12), 0 20px 60px rgba(0,0,0,0.5)",
-        background: "linear-gradient(135deg, #1a1a1a 0%, #252525 100%)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: "0.4rem",
-        flexShrink: 0
-      }}
-    >
-      <span style={{ fontSize: "clamp(3rem, 8vw, 5rem)", fontWeight: 800, color: "#7CFC00", lineHeight: 1 }}>
-        RL
-      </span>
-      <span style={{ fontSize: "0.72rem", color: "#666", letterSpacing: "0.12em", textTransform: "uppercase" }}>
-        Add Photo
-      </span>
-    </div>
-  );
-}
+import profileImage from "../assests/profile.jpg";
 
 function Hero() {
   return (
@@ -57,7 +30,12 @@ function Hero() {
         </div>
 
         <div className="hero-media">
-          <ProfilePlaceholder />
+          <img
+            src={profileImage}
+            alt="Rishu Lohar"
+            className="profile-image"
+            loading="eager"
+          />
         </div>
       </div>
     </section>

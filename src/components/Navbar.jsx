@@ -72,7 +72,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <a className="brand" href="#home">RISHU.DEV</a>
+      <a className="brand" href="#home">RISHU LOHAR</a>
 
       <button
         className="mobile-toggle"

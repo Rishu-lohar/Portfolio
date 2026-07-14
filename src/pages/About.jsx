@@ -36,7 +36,7 @@ function About() {
             </p>
             <div className="badge-list">
               {highlights.map((item) => (
-                <span key={item} className="skill-badge" style={{ color: "#7CFC00", borderColor: "rgba(124,252,0,0.2)" }}>
+                <span key={item} className="skill-badge" style={{ color: "var(--accent)", borderColor: "var(--accent-border)" }}>
                   {item}
                 </span>
               ))}

@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-content">
         <p>
-          © 2026 <span style={{ color: "#7CFC00" }}>Rishu Lohar</span> — Built with React &amp; Vite
+          © 2026 <span style={{ color: "var(--accent)" }}>Rishu Lohar</span> — Built with React &amp; Vite
         </p>
         <button
           type="button"

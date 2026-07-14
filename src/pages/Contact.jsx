@@ -13,12 +13,12 @@ function Contact() {
 
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div className="card-surface" style={{ display: "flex", flexDirection: "column", gap: "0.6rem", maxWidth: "480px", width: "100%" }}>
-            <h3 style={{ color: "#f0f0f0", marginBottom: "0.5rem" }}>Contact Details</h3>
+            <h3 style={{ color: "var(--text)", marginBottom: "0.5rem" }}>Contact Details</h3>
 
             <div className="contact-detail">
               <span>
                 <strong>Email</strong>
-                <a href="mailto:rishulohar266@gmail.com" style={{ color: "#7CFC00" }}>
+                <a href="mailto:rishulohar266@gmail.com" style={{ color: "var(--accent)" }}>
                   rishulohar266@gmail.com
                 </a>
               </span>
@@ -26,7 +26,7 @@ function Contact() {
             <div className="contact-detail">
               <span>
                 <strong>Phone</strong>
-                <a href="tel:+918905340433" style={{ color: "#c8c8c8" }}>
+                <a href="tel:+918905340433" style={{ color: "var(--text-secondary)" }}>
                   +91 89053 40433
                 </a>
               </span>

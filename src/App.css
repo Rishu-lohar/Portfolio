@@ -25,7 +25,7 @@
   --shadow-sm:      0 2px 10px rgba(0,0,0,0.55);
   --shadow-md:      0 8px 32px rgba(0,0,0,0.65);
   --shadow-lg:      0 20px 60px rgba(0,0,0,0.75);
-  --shadow-accent:  0 4px 22px rgba(114,255,61,0.22);
+  --shadow-accent:  none;
 
   --r-xs: 6px;
   --r-sm: 10px;
@@ -53,8 +53,8 @@
   100% { background-position:  200% center; }
 }
 @keyframes name-glow {
-  0%,100% { text-shadow: 0 0 24px rgba(114,255,61,0.22); }
-  50%     { text-shadow: 0 0 48px rgba(114,255,61,0.38), 0 0 80px rgba(114,255,61,0.12); }
+  0%,100% { opacity: 1; }
+  50%     { opacity: 0.92; }
 }
 @keyframes fade-in-up {
   from { opacity: 0; transform: translateY(28px); }
@@ -239,7 +239,7 @@ section#contact::before {
   width: 18px; height: 2px;
   background: var(--accent);
   border-radius: 2px;
-  box-shadow: 0 0 10px var(--accent-glow);
+  box-shadow: none;
 }
 
 .nav-socials { display: flex; gap: 0.2rem; align-items: center; }
@@ -359,20 +359,16 @@ section#contact::before {
   -webkit-text-fill-color: rgba(239,239,239,0.40) !important;
 }
 
-/* "Rishu Lohar" — vibrant gradient, animated shimmer */
+/* "Rishu Lohar" — clean solid accent, no glow */
 .hero-copy h1 > span:last-child {
   display: block !important;
-  background: linear-gradient(120deg,
-    #72FF3D 0%,
-    #C0FFAA 42%,
-    #72FF3D 68%,
-    #95FF64 100%) !important;
-  background-size: 200% auto !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  color: transparent !important;
-  animation: shimmer 3.5s linear infinite !important;
+  color: var(--accent) !important;
+  -webkit-text-fill-color: var(--accent) !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  animation: none !important;
+  text-shadow: none !important;
 }
 
 .hero-copy .hero-desc {
@@ -414,25 +410,20 @@ section#contact::before {
 .btn:hover  { transform: translateY(-3px); }
 .btn:active { transform: translateY(-1px); transition-duration: 80ms; }
 
-/* PRIMARY — bright gradient pill */
+/* PRIMARY — clean badge style: dark bg, green border, green text */
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-bright) 100%);
-  color: #060606;
+  background: rgba(114,255,61,0.07);
+  color: var(--accent);
   font-weight: 700;
-  border: none;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.25), var(--shadow-accent);
+  border: 1px solid var(--accent-border);
+  box-shadow: none;
 }
-.btn-primary::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.22) 50%, transparent 100%);
-  background-size: 200% auto;
-  animation: shimmer 2.2s linear infinite;
-}
+.btn-primary::before { display: none; }
 .btn-primary:hover {
-  box-shadow: 0 1px 0 rgba(0,0,0,0.25), 0 8px 28px rgba(114,255,61,0.30);
-  transform: translateY(-4px);
+  background: rgba(114,255,61,0.12);
+  border-color: var(--accent);
+  box-shadow: none;
+  transform: translateY(-2px);
 }
 
 /* OUTLINE */
@@ -492,8 +483,7 @@ section#contact::before {
   object-fit: cover;
   object-position: center top;
   box-shadow:
-    0 0 0 2px rgba(114,255,61,0.50),
-    0 0 0 5px rgba(114,255,61,0.14),
+    0 0 0 2px var(--accent-border),
     var(--shadow-lg);
   animation: float 5.5s ease-in-out infinite;
   position: relative;
@@ -552,9 +542,9 @@ section#contact::before {
 .tech-brand:hover {
   border-color: var(--accent-border);
   color: var(--accent);
-  background: rgba(114,255,61,0.08);
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(114,255,61,0.14);
+  background: rgba(114,255,61,0.06);
+  transform: translateY(-2px);
+  box-shadow: none;
 }
 
 /* ════════════════════════════════════════
@@ -620,8 +610,8 @@ section#contact::before {
   border-radius: 1px;
 }
 .card-surface:hover {
-  border-color: rgba(255,255,255,0.14);
-  box-shadow: 0 0 0 1px rgba(114,255,61,0.12), var(--shadow-md);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow: var(--shadow-md);
   transform: translateY(-4px);
   background: var(--card-hover);
 }
@@ -689,14 +679,14 @@ section#contact::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 2.5px;
-  background: linear-gradient(90deg, var(--accent-2, #4FE030), var(--accent-bright));
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
   border-radius: var(--r-lg) var(--r-lg) 0 0;
-  box-shadow: 0 0 12px rgba(114,255,61,0.35);
+  box-shadow: none;
 }
 .skill-category:hover {
   border-color: var(--accent-border);
-  box-shadow: 0 0 0 1px rgba(114,255,61,0.10), var(--shadow-md), 0 0 30px rgba(114,255,61,0.07);
+  box-shadow: var(--shadow-md);
   transform: translateY(-4px);
 }
 .skill-category h3 {
@@ -847,7 +837,7 @@ section#contact::before {
   outline: none;
   border-color: var(--accent-border);
   background: rgba(255,255,255,0.06);
-  box-shadow: 0 0 0 3px rgba(114,255,61,0.12);
+  box-shadow: none;
 }
 .form-control::placeholder { color: var(--text-muted); }
 

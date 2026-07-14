@@ -1,0 +1,225 @@
+IMPORTANT: Stop making tiny CSS tweaks and stop only changing variables.
+
+The previous updates produced almost no visible improvement.
+
+I want REAL visual changes.
+
+Before writing any code:
+
+1. Take screenshots of the current UI.
+2. Critique the UI like a senior UI/UX designer.
+3. List at least 15 visual weaknesses.
+4. Then improve every weakness.
+
+DO NOT redesign the layout.
+
+DO NOT change routing.
+
+DO NOT change React components.
+
+DO NOT change functionality.
+
+Only improve visual quality.
+
+==========================================
+
+I want this portfolio to look like a premium developer portfolio built by a senior frontend engineer.
+
+Reference inspiration:
+
+- Vercel
+- Linear
+- Framer
+- Raycast
+- Webflow premium templates
+- Awwwards developer portfolios
+
+==========================================
+
+Make the following VISUALLY noticeable improvements:
+
+• Better typography hierarchy
+• Better spacing
+• Better alignment
+• Better hero section
+• Better profile image
+• Better buttons
+• Better cards
+• Better project cards
+• Better hover animations
+• Better navbar
+• Better icons
+• Better section spacing
+• Better shadows
+• Better borders
+• Better responsiveness
+
+==========================================
+
+Color Palette
+
+Background:
+#0F0F0F
+
+Surface:
+#171717
+
+Card:
+#1D1D1D
+
+Primary Text:
+#F5F5F5
+
+Secondary Text:
+#B7B7B7
+
+Accent:
+#81B84A
+
+Accent Hover:
+#94CA5B
+
+Border:
+rgba(255,255,255,.08)
+
+==========================================
+
+Hero
+
+Make the Hero immediately impressive.
+
+Increase heading hierarchy.
+
+Make "Rishu Lohar" the visual focus.
+
+Improve button spacing.
+
+Improve paragraph readability.
+
+Improve white space.
+
+==========================================
+
+Profile Image
+
+Current image looks flat.
+
+Improve it.
+
+Use:
+
+- elegant border
+- premium shadow
+- soft depth
+- NO glow
+- NO neon
+
+==========================================
+
+Buttons
+
+Current buttons look basic.
+
+Redesign them.
+
+Rounded 12px
+
+Premium shadow
+
+Better hover
+
+Better spacing
+
+Better typography
+
+Hover:
+
+translateY(-2px)
+
+==========================================
+
+Cards
+
+Current cards look flat.
+
+Improve every card.
+
+Radius 16px
+
+Soft shadow
+
+Premium border
+
+Hover lift
+
+Better padding
+
+==========================================
+
+Navbar
+
+Improve spacing.
+
+Improve underline animation.
+
+Improve hover.
+
+Keep minimalist.
+
+==========================================
+
+Typography
+
+Improve font hierarchy.
+
+Improve line height.
+
+Improve readability.
+
+Make every heading feel premium.
+
+==========================================
+
+Animations
+
+No flashy animation.
+
+No bounce.
+
+No neon.
+
+Only subtle premium motion.
+
+==========================================
+
+Spacing
+
+Improve spacing throughout the entire website.
+
+Everything should feel balanced.
+
+==========================================
+
+VERY IMPORTANT
+
+After every visual change,
+
+compare the BEFORE and AFTER UI.
+
+If the difference is not immediately noticeable,
+
+continue refining.
+
+Do NOT stop until the UI clearly looks more premium.
+
+==========================================
+
+FINAL TASK
+
+Review the entire portfolio as if you are a Senior Product Designer at Vercel.
+
+Keep refining until the portfolio looks polished enough to confidently showcase on LinkedIn, GitHub, internship applications, and recruiter reviews.
+
+At the end, DO NOT just summarize.
+
+Actually modify the code and list every file changed.

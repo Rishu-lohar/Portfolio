@@ -1,0 +1,228 @@
+I want this portfolio to look like a premium, modern, minimalist developer portfolio similar to Linear, Vercel, Framer, Raycast, or high-end award-winning portfolios.
+
+DO NOT redesign the layout.
+Keep the current structure, spacing, and responsiveness.
+
+Only improve the visual design, color system, polish, and consistency.
+
+====================================
+COLOR SYSTEM
+====================================
+
+The current green is slightly dull.
+I want a premium olive-green accent that feels elegant, modern, and professional.
+
+Use this palette:
+
+--accent: #7FB84E;
+--accent-hover: #92C95A;
+--accent-light: rgba(127,184,78,0.12);
+
+--background: #0F0F0F;
+--surface: #171717;
+--card: #1D1D1D;
+
+--text: #F5F5F5;
+--text-secondary: #B3B3B3;
+
+--border: rgba(255,255,255,0.08);
+
+Use CSS variables throughout the entire project.
+
+Remove ALL hardcoded colors.
+
+====================================
+TYPOGRAPHY
+====================================
+
+Improve typography.
+
+Hero title should feel premium.
+
+Increase letter spacing slightly for headings.
+
+Improve line-height for paragraphs.
+
+Improve readability.
+
+Hero name (Rishu Lohar) should be the primary focus.
+
+The green text should have higher visual weight but never look neon.
+
+====================================
+BUTTONS
+====================================
+
+Buttons should feel modern.
+
+Requirements:
+
+border-radius: 12px
+
+padding balanced
+
+font-weight: 600
+
+soft border
+
+NO glow
+
+NO neon shadow
+
+Hover:
+
+slightly brighter background
+
+translateY(-2px)
+
+transition 250ms ease
+
+box-shadow:
+
+0 10px 24px rgba(127,184,78,.18)
+
+====================================
+PROFILE IMAGE
+====================================
+
+Keep circular image.
+
+Reduce border thickness.
+
+Use accent color.
+
+Add very subtle shadow.
+
+NO glowing ring.
+
+====================================
+CARDS
+====================================
+
+Every card should have:
+
+border-radius:16px
+
+subtle border
+
+background:
+
+#1D1D1D
+
+Hover:
+
+translateY(-3px)
+
+soft shadow
+
+Never use heavy shadows.
+
+====================================
+SKILL TAGS
+====================================
+
+Skill pills should look cleaner.
+
+Rounded.
+
+Thin border.
+
+Subtle hover.
+
+Background slightly lighter than cards.
+
+====================================
+NAVBAR
+====================================
+
+Active nav underline:
+
+2px
+
+accent color
+
+Smooth animation.
+
+Icons:
+
+same size
+
+same spacing
+
+hover should change only to accent color.
+
+====================================
+ANIMATIONS
+====================================
+
+Keep animations subtle.
+
+No bouncing.
+
+No flashy effects.
+
+Use smooth transitions only.
+
+250ms ease.
+
+====================================
+SPACING
+====================================
+
+Improve spacing consistency.
+
+Equal vertical rhythm.
+
+Equal margins.
+
+Equal padding.
+
+Nothing should feel cramped.
+
+====================================
+CONSISTENCY
+====================================
+
+Ensure every component uses the same:
+
+border radius
+
+spacing
+
+button style
+
+hover style
+
+icon size
+
+transition
+
+color variables
+
+====================================
+ACCESSIBILITY
+====================================
+
+Maintain excellent contrast.
+
+Do not reduce readability.
+
+====================================
+FINAL GOAL
+====================================
+
+The final portfolio should feel:
+
+✔ Premium
+✔ Minimal
+✔ Modern
+✔ Clean
+✔ Elegant
+✔ Professional
+✔ Recruiter Friendly
+
+It should look like something built by an experienced frontend engineer rather than a beginner.
+
+Do NOT add unnecessary animations, gradients, glowing effects, or colorful elements.
+
+The design should impress recruiters within the first 5 seconds.

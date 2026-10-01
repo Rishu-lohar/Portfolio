@@ -41,8 +41,7 @@ function Contact() {
             <div className="contact-list" style={{ marginTop: "0.8rem" }}>
               <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://github.com/Rishu-lohar" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://www.linkedin.com/in/rishulohar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://leetcode.com/u/Rishu_lohar/" target="_blank" rel="noopener noreferrer">LeetCode</a>
-              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://www.instagram.com/rishulohar_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a className="btn btn-outline" style={{ fontSize: "0.83rem" }} href="https://rishulohar-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
             </div>
           </div>
         </div>

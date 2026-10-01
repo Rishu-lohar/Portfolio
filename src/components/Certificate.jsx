@@ -1,7 +1,9 @@
 const certificates = [
-  { title: "Web Development Fundamentals", issuer: "Open Learning", year: "2025" },
-  { title: "React & Frontend Essentials", issuer: "Self-paced study", year: "2025" },
-  { title: "Backend Development Basics", issuer: "Hands-on learning", year: "2025" }
+  {
+    title: "Full-Stack Web Development Internship Certificate",
+    issuer: "ElevanceSkills",
+    link: "https://www.elevanceskills.com/certificates/6abcdd9ca728b87889f1349c"
+  }
 ];
 
 function Certificate() {
@@ -11,10 +13,14 @@ function Certificate() {
         <div key={certificate.title} className="certificate-card card-surface">
           <h3>{certificate.title}</h3>
           <p>{certificate.issuer}</p>
-          <div className="meta">
-            <span className="meta-pill">{certificate.year}</span>
-            <span className="meta-pill">Verified learning</span>
-          </div>
+            <div className="meta">
+              <span className="meta-pill">{certificate.issuer}</span>
+            </div>
+            <div className="project-actions">
+              <a className="btn btn-outline" href={certificate.link} target="_blank" rel="noopener noreferrer">
+                View Internship Certificate
+              </a>
+            </div>
         </div>
       ))}
     </div>

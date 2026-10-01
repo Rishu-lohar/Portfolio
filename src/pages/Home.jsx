@@ -1,13 +1,14 @@
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Certificate from "../components/Certificate";
+import Experience from "../components/Experience";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
 const techStack = [
-  "React", "Node.js", "MongoDB", "Express.js",
-  "JavaScript", "Python", "MySQL", "Git", "GitHub", "Postman"
+  "React", "Next.js", "TypeScript", "Node.js", "Express.js",
+  "MongoDB", "AWS", "Azure", "Docker", "Kubernetes", "Terraform"
 ];
 
 function Home() {
@@ -35,13 +36,15 @@ function Home() {
             <span className="eyebrow">Skills</span>
             <h2>My Technical Toolkit</h2>
             <p>
-              Focused on the MERN stack, with a solid foundation in programming
-              fundamentals and essential developer tools.
+              Full-stack development skills complemented by Cloud &amp; DevOps,
+              CI/CD, and Infrastructure as Code.
             </p>
           </div>
           <Skills />
         </div>
       </section>
+
+      <Experience />
 
       <Projects />
 
@@ -50,7 +53,7 @@ function Home() {
           <div className="section-heading">
             <span className="eyebrow">Certificates</span>
             <h2>Learning Milestones</h2>
-            <p>Certifications that mark consistent growth in my development journey.</p>
+            <p>Internship certification earned through full-stack development experience.</p>
           </div>
           <Certificate />
         </div>

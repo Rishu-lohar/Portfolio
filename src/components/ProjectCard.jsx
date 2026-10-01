@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
       <div className="project-actions">
         {project.github && (
           <a className="btn btn-outline" href={project.github} target="_blank" rel="noreferrer">
-            GitHub
+            {project.githubLabel || "GitHub"}
           </a>
         )}
         {project.live ? (

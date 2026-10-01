@@ -5,15 +5,15 @@ function Hero() {
     <section className="section hero-section" id="home">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <span className="hero-eyebrow">MCA Student · PES University</span>
+          <span className="hero-eyebrow">MCA · Cloud &amp; DevOps · PES University</span>
           <h1 style={{ color: "#ffffff" }}>
             <span style={{ color: "var(--text)" }}>Hi, I&apos;m </span>
             <span style={{ color: "var(--accent)" }}>Rishu Lohar</span>
           </h1>
           <p className="hero-desc">
-            A passionate MERN stack developer building practical web applications.
-            I turn ideas into clean, functional digital experiences &mdash; and I&apos;m
-            ready for my first internship.
+            MCA student specializing in Cloud &amp; DevOps, with hands-on full-stack
+            development experience. Interested in cloud engineering, CI/CD, and
+            Infrastructure as Code.
           </p>
 
           <div className="hero-actions">

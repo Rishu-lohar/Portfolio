@@ -1,21 +1,46 @@
-Rishu Lohar
-MCA Student | MERN Stack Developer | React Developer | Backend Learner
+RISHU LOHAR
+Bengaluru, India — +91-8905340433 — rishulohar266@gmail.com
+GitHub — https://github.com/Rishu-lohar
+LinkedIn — https://www.linkedin.com/in/rishulohar
+Portfolio — https://rishulohar-portfolio.vercel.app
 
-Skills:
-- React
-- Node.js
-- Express.js
-- MongoDB
-- MySQL
-- JavaScript
-- Python
-- C
-- Git/GitHub
+PROFESSIONAL SUMMARY
+MCA student specializing in Cloud and DevOps with hands-on experience in full-stack web development using React, Next.js, TypeScript, Node.js, Express.js, and MongoDB. Experienced in building REST APIs, authentication systems, real-time features, and deploying applications using cloud and DevOps technologies. Interested in Full-Stack Development, Cloud Engineering, DevOps, CI/CD, and Infrastructure as Code.
 
-Experience:
-- Building modern frontend and full-stack web projects
-- Learning backend architecture, APIs, and deployment basics
+TECHNICAL SKILLS
+Frontend: HTML/CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS, Bootstrap
+Backend: Node.js, Express.js, REST APIs, MongoDB, Mongoose, PostgreSQL
+Cloud: AWS (EC2, EBS, AMI, ELB, Auto Scaling, S3, RDS, DynamoDB, Lambda, Route 53, CloudFront, VPC, ECS, EKS, IAM, CloudFormation), Azure
+DevOps: Docker, Kubernetes, Jenkins, GitHub Actions, GitLab CI/CD, Azure DevOps, Terraform, Ansible, Azure Bicep, CI/CD
+Tools: Git/GitHub, VS Code, Postman, Linux, NPM, Jupyter Notebook
 
-Contact:
-- Email: rishulohar@example.com
-- LinkedIn: https://www.linkedin.com/
+INTERNSHIP EXPERIENCE
+Full-Stack Developer Intern — ElevanceSkills
+Jul 2026 – Sep 2026
+YouTube Clone — Full-Stack Video Streaming Platform
+- Developed a full-stack YouTube-style video streaming platform using Next.js, React, TypeScript, Node.js, Express.js, and MongoDB.
+- Implemented authentication, video upload and playback, likes/dislikes, comments, subscriptions, notifications, watch history, and Watch Later functionality.
+- Built and integrated REST APIs for core application features and connected frontend components with backend services.
+- Implemented real-time Watch Party functionality using Socket.IO and WebRTC.
+- Used Firebase Authentication, Mongoose, Git, and GitHub for authentication, data modelling, and version control.
+Certificate: https://www.elevanceskills.com/certificates/6abcdd9ca728b87889f1349c
+
+PROJECTS
+YouTube Clone — Full-Stack Video Streaming Platform
+- Built a full-stack YouTube-style video streaming platform with authentication, video management, comments, likes/dislikes, subscriptions, and real-time Watch Party functionality.
+- Tech stack: Next.js, React, TypeScript, Node.js, Express.js, MongoDB, Firebase, Socket.IO, WebRTC.
+- Live Demo: https://youtube-clone-two-dusky.vercel.app/
+- GitHub: https://github.com/Rishu-lohar/YouTube-Clone
+
+TaskFlow — Full-Stack Task Management Application
+- Developed a full-stack task management application using React, Node.js, Express.js, and MongoDB with authentication, RESTful APIs, request validation, and responsive UI.
+- Implemented task creation, management, and API-based communication between frontend and backend.
+- Live Demo: https://task-flow-project-mocha.vercel.app/
+
+EDUCATION
+Master of Computer Applications — Cloud & DevOps Specialization
+PES University, Bengaluru — Batch of 2027
+
+Bachelor of Science — Computer Science & Technology
+Govt. Nirbhay Singh Patel Science College, Indore
+Affiliated to Devi Ahilya Vishwavidyalaya (DAVV), Indore

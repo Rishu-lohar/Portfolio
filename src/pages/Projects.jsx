@@ -9,8 +9,8 @@ function Projects() {
           <span className="eyebrow">Recent Work</span>
           <h2>Projects</h2>
           <p>
-            Practical web applications built while mastering the MERN stack —
-            each one a milestone in my development journey.
+            Full-stack applications built with modern web technologies, backend
+            services, and real-time features.
           </p>
         </div>
 

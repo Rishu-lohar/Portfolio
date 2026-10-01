@@ -2,8 +2,7 @@ function SocialLinks() {
   const socials = [
     { label: "GitHub", url: "https://github.com/Rishu-lohar" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/rishulohar" },
-    { label: "LeetCode", url: "https://leetcode.com/u/Rishu_lohar/" },
-    { label: "Instagram", url: "https://www.instagram.com/rishulohar_/" }
+    { label: "Portfolio", url: "https://rishulohar-portfolio.vercel.app/" }
   ];
 
   return (

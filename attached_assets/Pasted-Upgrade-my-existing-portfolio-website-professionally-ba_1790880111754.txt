@@ -1,0 +1,185 @@
+Upgrade my existing portfolio website professionally based on the attached/ provided updated resume.
+
+IMPORTANT:
+- Do NOT redesign the website from scratch.
+- Do NOT remove or replace the existing overall design, layout, animations, typography, color theme, navigation structure, profile image, or visual identity.
+- Do NOT make unnecessary changes to the existing UI.
+- Preserve the current portfolio's look and feel.
+- The goal is to UPGRADE the existing portfolio using the information from my new resume, not to rebuild it.
+- Keep the website clean, modern, professional, responsive, and recruiter-friendly.
+- Do not introduce random content or skills that are not supported by my resume.
+- Use the resume as the primary source for all personal, education, internship, project, and technical-skill information.
+
+UPGRADE THE CONTENT ACCORDING TO THE NEW RESUME:
+
+1. HERO / HOME
+- Update the introduction so it accurately reflects my current profile.
+- I am an MCA student specializing in Cloud & DevOps.
+- My profile should highlight Full-Stack Development, Cloud, DevOps, CI/CD, and Infrastructure as Code.
+- Keep the existing hero design and profile image.
+- Do not add exaggerated claims such as "expert", "senior", "professional engineer", etc.
+
+2. ABOUT
+- Upgrade the About section using the information from my resume.
+- Keep it concise and professional.
+- Mention my MCA at PES University with Cloud & DevOps specialization.
+- Mention my full-stack development experience and Cloud/DevOps focus.
+- Do not invent achievements or experience.
+
+3. SKILLS
+Completely align the Skills section with the new resume.
+
+Frontend:
+HTML/CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS, Bootstrap
+
+Backend:
+Node.js, Express.js, REST APIs, MongoDB, Mongoose, PostgreSQL
+
+Cloud:
+AWS (EC2, EBS, AMI, ELB, Auto Scaling, S3, RDS, DynamoDB, Lambda, Route 53, CloudFront, VPC, ECS, EKS, IAM, CloudFormation), Azure
+
+DevOps:
+Docker, Kubernetes, Jenkins, GitHub Actions, GitLab CI/CD, Azure DevOps, Terraform, Ansible, Azure Bicep, CI/CD
+
+Tools:
+Git, GitHub, VS Code, Postman, Linux, NPM, Jupyter Notebook
+
+Keep the existing Skills UI/design. Only upgrade the content and organize it cleanly.
+
+4. INTERNSHIP EXPERIENCE
+Add/update the internship section using the resume:
+
+Full-Stack Developer Intern — ElevanceSkills
+Jul 2026 – Sep 2026
+
+YouTube Clone — Full-Stack Video Streaming Platform
+
+Include the relevant responsibilities and technologies from the resume:
+- Full-stack YouTube-style video streaming platform
+- Next.js, React, TypeScript, Node.js, Express.js, MongoDB
+- Authentication
+- Video upload and playback
+- Likes/dislikes
+- Comments
+- Subscriptions
+- Notifications
+- Watch history
+- Watch Later
+- REST APIs
+- Socket.IO
+- WebRTC
+- Firebase Authentication
+- Mongoose
+- Git and GitHub
+
+Also add the internship certificate as a clickable certificate link:
+
+https://www.elevanceskills.com/certificates/6abcdd9ca728b87889f1349c
+
+Display it professionally as:
+"View Internship Certificate"
+
+5. PROJECTS
+IMPORTANT:
+- Remove ONLY the existing "Portfolio" project from the Projects section.
+- Replace that project with the YouTube Clone project from my new resume.
+- Do NOT remove my other valid project unnecessarily.
+
+YouTube Clone — Full-Stack Video Streaming Platform
+
+Description should accurately reflect:
+- Full-stack YouTube-style video streaming platform
+- Authentication
+- Video management
+- Comments
+- Likes/dislikes
+- Subscriptions
+- Real-time Watch Party
+- Next.js
+- React
+- TypeScript
+- Node.js
+- Express.js
+- MongoDB
+- Firebase
+- Socket.IO
+- WebRTC
+
+Add clickable links:
+
+Live Demo:
+https://youtube-clone-two-dusky.vercel.app/
+
+GitHub:
+https://github.com/Rishu-lohar/YouTube-Clone
+
+Display proper labels such as:
+"Live Demo"
+"GitHub Repository"
+
+Do NOT show raw URLs unnecessarily in the visible UI.
+
+Keep the TaskFlow project if it already exists and keep its existing information unless the resume indicates otherwise.
+
+6. EDUCATION
+Upgrade the Education section according to the resume:
+
+Master of Computer Applications — Cloud & DevOps Specialization
+PES University, Bengaluru
+Batch of 2027
+
+Bachelor of Science — Computer Science & Technology
+Govt. Nirbhay Singh Patel Science College, Indore
+Affiliated to Devi Ahilya Vishwavidyalaya (DAVV), Indore
+
+Do not incorrectly show DAVV as the college.
+
+7. RESUME / CV
+The portfolio should use the NEW resume information as the source of truth.
+If the website currently has an old resume/CV download or resume information, upgrade it to the new resume information.
+
+8. LINKS
+Keep these profile links properly labeled and clickable:
+GitHub - https://github.com/Rishu-lohar
+LinkedIn - https://www.linkedin.com/in/rishulohar
+Portfolio - https://rishulohar-portfolio.vercel.app/
+
+Do not add LeetCode because it is not part of my current resume/profile.
+
+9. CONTENT ACCURACY
+- Do not invent internships.
+- Do not invent certifications.
+- Do not invent projects.
+- Do not invent technologies.
+- Do not add AI/ML experience unless it is explicitly present in the resume.
+- Do not add fake job experience.
+- Do not exaggerate my level of expertise.
+
+10. DESIGN PRESERVATION
+This is an UPGRADE, not a redesign.
+
+Preserve:
+- Existing dark theme
+- Existing profile image
+- Existing animations
+- Existing navigation
+- Existing typography
+- Existing spacing style
+- Existing responsive behavior
+- Existing overall visual identity
+
+Only improve the content, organization, consistency, and professionalism where necessary.
+
+11. FINAL QUALITY
+After updating:
+- Ensure every section is readable.
+- Ensure no text overlaps.
+- Ensure mobile responsiveness remains intact.
+- Ensure all buttons and links work.
+- Ensure external links open correctly.
+- Ensure there are no broken routes.
+- Ensure there are no console/runtime errors.
+- Ensure the portfolio looks like a polished professional developer portfolio.
+- Do not make unnecessary visual changes.
+
+Again: DO NOT redesign or rebuild the portfolio. UPGRADE the existing portfolio using the new resume as the source of truth.

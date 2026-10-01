@@ -1,0 +1,306 @@
+UPGRADE MY EXISTING PORTFOLIO — DO NOT REDESIGN OR BREAK THE CURRENT WEBSITE
+
+I want you to UPGRADE my existing portfolio website using the attached/current resume as the single source of truth for my professional information.
+
+IMPORTANT:
+- This is an UPGRADE, NOT a redesign.
+- Preserve the existing website's current design, layout, theme, animations, responsiveness, typography, spacing, navigation, and overall visual identity.
+- Do NOT rebuild the website from scratch.
+- Do NOT change the existing design unnecessarily.
+- Do NOT remove working features.
+- Do NOT break any existing functionality.
+- Do NOT change my profile photo.
+- Do NOT change the overall color theme.
+- Do NOT create a completely different UI.
+- Make only the content upgrades required below.
+- Keep the website polished, professional, modern, and recruiter-friendly.
+
+MOST IMPORTANT:
+Use my current resume as the source of truth for my name, education, skills, internship, projects, technologies, and professional positioning.
+
+MY PROFESSIONAL POSITIONING:
+I am an MCA student specializing in Cloud & DevOps with hands-on Full-Stack Development experience.
+
+==================================================
+1. HERO SECTION — UPGRADE CONTENT ONLY
+==================================================
+
+Keep the existing Hero design exactly as it is.
+
+Upgrade the text so it reflects my current resume.
+
+Use positioning around:
+
+MCA Student | Full-Stack Developer | Cloud & DevOps
+
+My introduction should communicate that I work with:
+- React
+- Next.js
+- TypeScript
+- Node.js
+- Express.js
+- MongoDB
+- Cloud
+- DevOps
+- CI/CD
+- Infrastructure as Code
+
+Do NOT make exaggerated claims.
+Do NOT call me a senior developer or experienced professional.
+Keep it suitable for an MCA student / fresher with internship and project experience.
+
+==================================================
+2. ABOUT SECTION — UPGRADE CONTENT
+==================================================
+
+Keep the current About section design.
+
+Update the content according to my resume.
+
+Mention that I am pursuing:
+
+Master of Computer Applications — Cloud & DevOps Specialization
+PES University, Bengaluru
+Batch of 2027
+
+Mention my focus areas:
+- Full-Stack Development
+- Cloud Engineering
+- DevOps
+- CI/CD
+- Infrastructure as Code
+
+Do not invent additional experience or achievements.
+
+==================================================
+3. SKILLS SECTION — IMPORTANT
+==================================================
+
+Keep the current Skills section design.
+
+Replace/update the existing skills so they match my CURRENT RESUME.
+
+Use these exact categories and technologies:
+
+Frontend:
+HTML/CSS, JavaScript, React.js, Next.js, TypeScript, Tailwind CSS, Bootstrap
+
+Backend:
+Node.js, Express.js, REST APIs, MongoDB, Mongoose, PostgreSQL
+
+Cloud:
+AWS:
+EC2, EBS, AMI, ELB, Auto Scaling, S3, RDS, DynamoDB, Lambda, Route 53, CloudFront, VPC, ECS, EKS, IAM, CloudFormation
+
+Also:
+Azure
+
+DevOps:
+Docker, Kubernetes, Jenkins, GitHub Actions, GitLab CI/CD, Azure DevOps, Terraform, Ansible, Azure Bicep, CI/CD
+
+Tools:
+Git/GitHub, VS Code, Postman, Linux, NPM, Jupyter Notebook
+
+IMPORTANT:
+Do not add random technologies that are not present in my resume.
+Do not remove the above technologies.
+Keep the Skills section visually clean and readable.
+
+==================================================
+4. PROJECTS SECTION — IMPORTANT
+==================================================
+
+Keep the existing Projects section design.
+
+REMOVE ONLY the existing "Portfolio" project from the Projects section.
+
+Do NOT remove the portfolio website itself.
+Only remove the portfolio project CARD/ENTRY from the Projects section.
+
+ADD/UPDATE the following projects:
+
+PROJECT 1:
+
+YouTube Clone — Full-Stack Video Streaming Platform
+
+Description:
+A full-stack YouTube-style video streaming platform with authentication, video management, comments, likes/dislikes, subscriptions, and real-time Watch Party functionality.
+
+Tech Stack:
+Next.js, React, TypeScript, Node.js, Express.js, MongoDB, Firebase, Socket.IO, WebRTC
+
+Live Demo:
+https://youtube-clone-two-dusky.vercel.app/
+
+GitHub:
+https://github.com/Rishu-lohar/YouTube-Clone
+
+Make both Live Demo and GitHub clickable.
+
+PROJECT 2:
+
+TaskFlow — Full-Stack Task Management Application
+
+Description:
+A full-stack task management application using React, Node.js, Express.js, and MongoDB with authentication, RESTful APIs, request validation, responsive UI, task creation and management.
+
+Tech Stack:
+React, Bootstrap, Node.js, Express.js, MongoDB
+
+Live Demo:
+https://task-flow-project-mocha.vercel.app/
+
+Make the Live Demo clickable.
+
+IMPORTANT:
+Do NOT add the TaskFlow GitHub repository.
+Do NOT mention Replit.
+Do NOT mention that Replit was used to build the project.
+
+==================================================
+5. INTERNSHIP / EXPERIENCE SECTION
+==================================================
+
+Keep the existing Internship/Experience section design.
+
+Update it to match my resume:
+
+Full-Stack Developer Intern — ElevanceSkills
+Jul 2026 — Sep 2026
+
+Project:
+YouTube Clone — Full-Stack Video Streaming Platform
+
+Use these points:
+
+- Developed a full-stack YouTube-style video streaming platform using Next.js, React, TypeScript, Node.js, Express.js, and MongoDB.
+- Implemented authentication, video upload and playback, likes/dislikes, comments, subscriptions, notifications, watch history, and Watch Later functionality.
+- Built and integrated REST APIs for core application features and connected frontend components with backend services.
+- Implemented real-time Watch Party functionality using Socket.IO and WebRTC.
+- Used Firebase Authentication, Mongoose, Git, and GitHub for authentication, data modelling, and version control.
+
+==================================================
+6. CERTIFICATE SECTION — ADD
+==================================================
+
+Add a clean Certificate section using the EXISTING website design language.
+
+Certificate:
+
+Full Stack Web Development Internship Certificate
+
+Issuer:
+ElevanceSkills
+
+Certificate URL:
+https://www.elevanceskills.com/certificates/6abcdd9ca728b87889f1349c
+
+Add a clear clickable button such as:
+
+View Certificate →
+
+The button must open the certificate URL in a new tab.
+
+Do NOT display the long raw URL as the main visual text.
+
+==================================================
+7. EDUCATION SECTION
+==================================================
+
+Keep the existing Education section design.
+
+Make sure the education information matches my resume:
+
+Master of Computer Applications — Cloud & DevOps Specialization
+PES University, Bengaluru
+Batch of 2027
+
+Bachelor of Science — Computer Science & Technology
+Govt. Nirbhay Singh Patel Science College, Indore
+Affiliated to Devi Ahilya Vishwavidyalaya (DAVV), Indore
+
+Do NOT show DAVV as my college.
+The college is:
+Govt. Nirbhay Singh Patel Science College, Indore
+
+DAVV is the affiliating university.
+
+==================================================
+8. NAVIGATION
+==================================================
+
+Keep the existing navigation.
+
+Make sure the navigation still correctly points to:
+
+Home
+About
+Skills
+Projects
+Contact
+
+If a Certificate section is added, you may add "Certificates" to navigation ONLY if it fits naturally with the existing navigation and does not disturb the current design.
+
+==================================================
+9. SOCIAL / PROFILE LINKS
+==================================================
+
+Keep the existing social links and make sure they point to:
+
+GitHub:
+https://github.com/Rishu-lohar
+
+LinkedIn:
+https://www.linkedin.com/in/rishulohar
+
+Portfolio:
+This current website itself.
+
+Do NOT add LeetCode.
+
+==================================================
+10. RESUME / CV
+==================================================
+
+There is an existing Resume/CV download option on the portfolio.
+
+UPGRADE it so that it uses my CURRENT resume instead of the old resume.
+
+Use the newly provided/current Rishu Lohar resume PDF as the resume downloadable by the website.
+
+Do NOT modify the resume content.
+Do NOT redesign the resume.
+Do NOT generate a new resume.
+Simply make the portfolio's Download CV/Resume button point to the current resume PDF.
+
+==================================================
+11. FINAL QUALITY CHECK
+==================================================
+
+Before finishing:
+
+- Check every navigation link.
+- Check every project link.
+- Check YouTube Clone Live Demo.
+- Check YouTube Clone GitHub.
+- Check TaskFlow Live Demo.
+- Check Certificate link.
+- Check GitHub and LinkedIn links.
+- Check Resume/CV download.
+- Check mobile responsiveness.
+- Check desktop responsiveness.
+- Make sure there are no broken images.
+- Make sure there are no console errors.
+- Make sure there are no broken routes.
+- Make sure the existing design has NOT been unnecessarily changed.
+
+FINAL RULE:
+
+THIS IS AN UPGRADE ONLY.
+
+Preserve the existing portfolio design and functionality.
+Do not redesign, restructure, or unnecessarily modify the website.
+
+The ONLY project that should be removed is the old "Portfolio" project entry from the Projects section.
+
+Everything else should be upgraded according to my current resume and the instructions above.
